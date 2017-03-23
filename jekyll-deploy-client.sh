@@ -17,4 +17,4 @@ git add -A
 git add *
 git commit -am 'blogs auto commit'
 git push origin master
-ssh -t $SSH_ACCOUNT "sh /www/wwwroot/sites/jekyll-deploy-remote.sh"
+ssh -t $SSH_ACCOUNT "sh /www/wwwroot/sites/jekyll-blog/jekyll-deploy-remote.sh"
