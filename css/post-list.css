@@ -1,3 +1,5 @@
+@import "global.scss"
+
 .btn-border-small {
   border: 1px solid $primary-color;
   border-radius: 20px;
