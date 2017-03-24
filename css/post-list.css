@@ -1,5 +1,5 @@
 .btn-border-small {
-  border: 1px solid #BF1827;
+  border: 1px solid $primary-color;
   border-radius: 20px;
   padding: 6px 8px;
   font-size: .8em;
@@ -26,7 +26,7 @@
 .post-list-content {
   margin: 0;
   font-size: .9em;
-  color: #333333;
+  color: $gray-dark;
 }
 
 .post-list-post-title {
@@ -36,9 +36,9 @@
   line-height: 1.3em;
 
   a {
-    color: #333333;
+    color: $gray-darkest;
     &:hover {
-      color: #BF1827;
+      color: $hover-color;
     }
   }
 }
@@ -47,12 +47,12 @@
   display: block;
   margin: .7em 0 0 0;
   font-size: .9em;
-  color: darken(#BF1827, 2%);
+  color: darken($gray, 2%);
 }
 
 .post-list-meta--date {
   margin-right: .5em;
-  color: darken(#BF1827, 2%);
+  color: darken($gray, 2%);
 }
 
 .post-list-meta--tags {
@@ -62,5 +62,5 @@
 .post-list-divider {
   width: 30%;
   margin: 2.2em 0 2.1em 0;
-  border-top: 1px solid #BF1827;
+  border-top: 1px solid $gray-light;
 }
