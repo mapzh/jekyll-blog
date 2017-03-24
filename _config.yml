@@ -24,7 +24,7 @@ url: "blog.mapzh.com" # the base hostname & protocol for your site, e.g. http://
 twitter_username: jekyllrb
 github_username:  jekyll
 
-paginate: 5
+paginate: 10
 paginate_path: "page:num"
 
 # Build settings
