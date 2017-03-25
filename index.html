@@ -2,22 +2,20 @@
 layout: default
 ---
 
+<div class="main-post-list hidden">
 
-<section class="post-list-banner">
-    <div>
-        <h2>My Blog</h2>
-    </div>
-</section>
-<!-- 遍历分页后的文章 -->
-{% for post in paginator.posts %}
+  <ol class="post-list">
+    {% for post in paginator.posts %}
     <li>
-      <h2 class="post-list-post-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">{{ post.title }}</a></h2>
-      <p class="post-list-content">{{ post.content | strip_html | strip_newlines | truncate: 150 }}&hellip;</p>
-      <div class="post-list-meta"><time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list-meta--date date">{{ post.date | date: "%F"}}</time> &#8226; <span class="post-list-meta--tags tags">{{ post.tags }}</span><a class="btn-border-small" href={{ post.url }}>继续阅读</a></div>
-      <hr class="post-list-divider" />
+      <h2 class="post-list__post-title post-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">{{ post.title }}</a></h2>
+      <p class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 250 }}&hellip;</p>
+      <div class="post-list__meta"><time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__meta--date date">{{ post.date | date: "%F"}}</time> &#8226; <span class="post-list__meta--tags tags">{{ post.tags }}</span><a class="btn-border-small" href={{ post.url }}>继续阅读</a></div>
+      <hr class="post-list__divider" />
     </li>
-{% endfor %}
+    {% endfor %}
+  </ol>
 
+</div>
 <!-- 分页链接 -->
 <div class="pagination">
   {% if paginator.previous_page %}
