@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 SSH_ACCOUNT="root@139.162.115.209"
-BLOG_WORKSPACE_1="/Users/natural/Documents/Code/jekyll-blog"
+BLOG_WORKSPACE_1="/Users/natural/Documents/main-site/jekyll-blog"
 BLOG_WORKSPACE_2="/Users/mapengzhen/Documents/main-site/jekyll-blog/"
 
 ssh-add ~/.ssh/*rsa
