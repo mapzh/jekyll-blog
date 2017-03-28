@@ -135,6 +135,10 @@
 // ADDITIONAL COVER COLOURS
 // ------------------------------
 
+.cover-atom-gray{
+  @include linear-gradient(140deg, rgba($atom-gray,.6) 20%, rgba(darken($atom-gray, 20%),.8));
+}
+
 .cover-blue {
   @include linear-gradient(140deg, rgba($blue,.6) 20%, rgba(darken($blue, 20%),.8));
 }
