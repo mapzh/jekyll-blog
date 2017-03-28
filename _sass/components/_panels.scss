@@ -136,7 +136,7 @@
 // ------------------------------
 
 .cover-atom-gray{
-  @include linear-gradient(140deg, rgba($atom-gray,.6) 20%, rgba(darken($atom-gray, 20%),.8));
+  @include linear-gradient(140deg, rgba($atom-gray,.6) 20%, rgba(lighten($atom-gray, 20%),.8));
 }
 
 .cover-blue {
