@@ -3,7 +3,7 @@ layout: post
 title: iOS的init、loadView、viewDidLoad、viewDidUnload的关系
 date: 2012-11-23 16:03
 categories: []
-tags: []
+tags: iOS
 ---
 
 原帖地址：[http://www.cocoachina.com/applenews/devnews/2012/1120/5134.html](http://www.cocoachina.com/applenews/devnews/2012/1120/5134.html)

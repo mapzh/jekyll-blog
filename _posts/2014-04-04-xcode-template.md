@@ -3,7 +3,7 @@ layout: post
 title: XCode5添加新建类模板（Cocos2dx Template Class for Scene or Layer）
 date: 2014-04-04 18:47
 categories: []
-tags: []
+tags: iOS
 ---
 **猴子原创，欢迎转载。转载请注明：** 转载自[Cocos2D开发网–Cocos2Dev.com](http://www.cocos2dev.com/)，谢谢！
 **原文地址:** [http://www.cocos2dev.com/?p=505](http://www.cocos2dev.com/?p=505)

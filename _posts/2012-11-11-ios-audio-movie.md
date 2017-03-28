@@ -3,7 +3,7 @@ layout: post
 title: ios：音频和视频（未完）
 date: 2012-11-11 20:08
 categories: []
-tags: []
+tags: iOS
 ---
 #前提条件：需要引入AVFoundation.frame-work、MediaPlayer.framework、CoreAudio.framework（录制音频时会用到）
 

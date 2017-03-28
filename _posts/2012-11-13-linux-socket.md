@@ -3,7 +3,7 @@ layout: post
 title: Linux中的Socket编程（不限Linux）
 date: 2012-11-13 10:33
 categories: []
-tags: []
+tags: Linux
 ---
 “一切皆Socket！”话虽有些许夸张，但是事实也是，现在的网络编程几乎都是用的socket。——有感于实际编程和开源项目研究。
 我们深谙信息交流的价值，那网络中进程之间如何通信，如我们每天打开浏览器浏览网页时，浏览器的进程怎么与web服务器通信的？当你用QQ聊天时，QQ进程怎么与服务器或你好友所在的QQ进程通信？这些都得靠socket？那什么是socket？socket的类型有哪些？还有socket的基本函数，这些都是本文想介绍的。本文的主要内容如下：

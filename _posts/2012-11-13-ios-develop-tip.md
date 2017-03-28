@@ -3,7 +3,7 @@ layout: post
 title: ios开发剪辑集锦
 date: 2012-11-13 11:51
 categories: []
-tags: []
+tags: iOS
 ---
 #iOS 声明属性关键字:
 

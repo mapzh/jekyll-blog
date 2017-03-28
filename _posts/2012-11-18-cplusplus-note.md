@@ -3,7 +3,7 @@ layout: post
 title: C++笔记
 date: 2012-11-18 09:34
 categories: []
-tags: []
+tags: C++
 ---
 
 inline函数（内联函数）和define（预定义）的作用相似，但却有不同之处：

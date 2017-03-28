@@ -3,7 +3,7 @@ layout: post
 title: NSXMLParser 解析 XML
 date: 2012-11-10 15:14
 categories: []
-tags: []
+tags: iOS
 ---
 本文参考自iOS_Cookbook（下面只列出关键代码，如果看不懂有什么建议希望大家能提出来）
 

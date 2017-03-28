@@ -3,7 +3,7 @@ layout: post
 title: 与并发和多线程有关的那些事
 date: 2012-11-10 19:23
 categories: []
-tags: []
+tags: iOS
 ---
 #并发：
 

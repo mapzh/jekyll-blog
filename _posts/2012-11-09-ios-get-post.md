@@ -3,7 +3,7 @@ layout: post
 title: 同步异步与post、get简解
 date: 2012-11-09 19:53
 categories: []
-tags: []
+tags: iOS
 ---
 
 **一、http编程其实就是http请求。http请求最长用的方法是 get 和 post 方法。**==》get方法和post方法相比理解起来比较简单，get方法可以直接请求一个url，也可以url后面拼接上参数作为一个新的url地址进行请求。get方法后面的value要经过unicode编码。form的enctype属性默认为application/x-www-form-urlencoded。不能发送二进制文件。

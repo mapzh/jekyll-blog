@@ -3,7 +3,7 @@ layout: post
 title: C++编写数据结构中的二叉树(前序，中序，后序遍历)
 date: 2014-04-04 19:02
 categories: []
-tags: []
+tags: C++
 ---
 编译环境xCode 5.1
 Two.h:

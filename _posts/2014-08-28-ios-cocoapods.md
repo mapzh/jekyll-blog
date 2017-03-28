@@ -3,7 +3,7 @@ layout: post
 title: CocoaPods安装和使用教程
 date: 2014-08-28 19:10
 categories: []
-tags: []
+tags: iOS
 ---
 Code4App 原创文章。转载请注明出处：[http://code4app.com/article/cocoapods-install-usage](http://code4app.com/article/cocoapods-install-usage)
 ##CocoaPods是什么？
