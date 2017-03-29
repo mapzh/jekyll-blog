@@ -2,13 +2,14 @@
 layout: post
 title: Linux环境配置问题汇总
 date: 2016-06-16 15:25
-categories: []
 tags: Linux
 ---
 
-#Linux环境配置问题汇总
+## Linux环境配置问题汇总
 
-###NOKEY, key ID*****
+
+### NOKEY, key ID*****
+
 在`CentOS`或者`Fedora`下有时候用`yum`安装软件的时候最后会提示：
 
 ```
@@ -22,7 +23,9 @@ warning: rpmts_HdrFromFdno: Header V3 DSA signature: NOKEY, key ID*****
 rpm --import /etc/pki/rpm-gpg/RPM*
 ```
 
-###Centos用 yum 方式安装 nodejs 和 npm
+
+### Centos用 yum 方式安装 nodejs 和 npm
+
 要通过 `yum` 来安装 `nodejs` 和 `npm` 需要先给 `yum` 添加 `epel` 源
 
 ```
@@ -41,7 +44,9 @@ rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6
 yum -y install nodejs npm --enablerepo=epel
 ```
 
-###sudo：yum-config-manager：找不到命令
+
+### sudo：yum-config-manager：找不到命令
+
 这个是因为系统默认没有安装这个命令，这个命令在`yum-utils` 包里，可以通过命令安装
 
 ```
@@ -50,7 +55,8 @@ yum -y install yum-utils
 ```
 
 
-###Centos设置定点重启
+### Centos设置定点重启
+
 
 ```
 yum install vixie-cron crontabs
