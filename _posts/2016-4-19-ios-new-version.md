@@ -2,7 +2,6 @@
 layout: post
 title: iOS系统新特性
 date: 2016-04-19 13:20
-categories: []
 tags: server
 ---
 
