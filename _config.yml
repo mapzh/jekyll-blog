@@ -1,7 +1,7 @@
 # Basic
-title: Mapzh’s Blog
+title: Mapzh
 subtitle: Mapzh’s Blog
-description: 博客内容包含iOS、Python等
+description: 博客内容包含iOS、Python、Linux等
 creator: <a href="http://blog.mapzh.com">@mapzh</a>
 
 url: "http://blog.mapzh.com"
@@ -16,12 +16,12 @@ cover_color: atom-gray        #2D3037
 
 # The blog button should not be removed.
 blog_button:
-    title: Blog
+    title: 博客
     description: Visit blog
 
 # Navigation buttons in the front page.
 nav:
-    - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
+    - {title: 项目, description: My Projects, url: 'https://github.com/mapzh'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
 
 # Pagination
