@@ -48,7 +48,7 @@ copy
 
 
 
-#ios delegate你必須知道的事情
+# ios delegate你必須知道的事情
 當你開始寫iOS程式不久，應該開始面對到很多的delegate，
 不管是用別人的library或是自己寫library，可能都逃不了delegate。
 為了怕有些人不知道什麼是delegate，在這邊簡單的介紹一下，

@@ -5,7 +5,7 @@ date: 2012-11-10 19:23
 categories: []
 tags: iOS
 ---
-#并发：
+# 并发：
 
       “当两个或两个以上的任务同时执行时就发生了并发。即使只有一个 CPU,现代操作系统也能够在同时执行多个任务。要实现这一点,它们需要给每个任务从 CPU 中分配一定的时间片。例如,要在 1 秒钟内执行 10 个同样优先级的任务,操作系统会用 10(任务)来平均分配 1000 毫秒(每秒钟有 1000 毫秒),那么每个任务就会有
  100 毫秒的 CPU 时间。这就意味着所以的任务会在同一秒钟内执行,也就是并发执行。
@@ -69,7 +69,7 @@ dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAU
 
 对于dispatch_queue_t（调度队列），苹果API中这样解释：一个调度队列是一个轻量级的对象,您的应用程序提交块后续执行。
 
-#有3 种调度队列:
+# 有3种调度队列:
 Main Queue
 这个队列在主线程上执行它的所有任务,Cocoa 和 Cocoa Touch 允许程序员在主线程上调用一切 UI-related 方法。使用 dispatch_get_main_queue 函数检索到主队列的句柄。
 
@@ -85,9 +85,9 @@ Concurrent Queues
 在 APP 生命周期内的任何时刻,你可以同时使用多个分派队列。你的系统只有一个主队列,但是你可以创建多个串行队列来实现任何你需要 APP 实现的功能,当然是在合理的范围内。你也可以检索多个并发队列并将任务分派给它们,任务可以通过 2 种方式传递分派队列:Block Objects 和 C 函数
 
 
-#Main Queue
+# Main Queue
 
-##用 GCD 执行 UI-Related 任务
+## 用 GCD 执行 UI-Related 任务
 
 UI-Related:一个 APP 的主线程是处理 UI 事件的线程。如果你在主线程执行一个长时间运行的任务,就要注意 APP 的 UI 会没有响应或者响应缓慢。
 
@@ -117,8 +117,8 @@ dispatch_queue_t mainQueue = dispatch_get_main_queue();
 
 
 
-#Concurrent Queues
-##用 GCD 同步执行 Non-UI-Related 任务
+# Concurrent Queues
+## 用 GCD 同步执行 Non-UI-Related 任务
 
 你可以使用下面这些值作为 Dispatch_get_global_queue 函数的第一个参数:
 
@@ -153,8 +153,8 @@ void(^printFrom1TO1000)(void) = ^{
 
 
 
-#Serial Queues
-##用 GCD构建自己的调度队列
+# Serial Queues
+## 用 GCD构建自己的调度队列
 
 串行调度队列按照先入先出(FIFO)的原则运行它们的任务。然而,串行队列上的异步任务不会在主线程上执行,这就使得串行队列极需要并发 FIFO 任务。所有提交到一个串行队列的同步任务会在当前线程上执行,在任何可能的情况下这个线程会被提交任务的代码使用。但是提交到串行队列的异步任务总是在主线程以外的线程上执行。
 

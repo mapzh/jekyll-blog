@@ -97,7 +97,7 @@ tags: iOS
  
 在.m文件中实现:
 
-```csharp
+```Objective-C
 @synthesize xmlParser;
 @synthesize window = _window;
 @synthesize currentElementPoint;

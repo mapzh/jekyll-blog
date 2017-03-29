@@ -19,7 +19,8 @@ HTTP协议如何工作？
 2.         建立连接的方式（1、非持久连接 2、持久连接）
 3.         缓存的机制
 4.         响应授权激发机制（应用场合）
-5.        基于HTTP的应用（1、 HTTP代理 2、多线程下载 3、 HTTPS传输协议原理 4、开发web程序时常用的Request Methods 5、用户与服务器的交互）                           ——————————————参考自：http://ioswiki.sinaapp.com/index.php?edition-view-45-5#3
+5.        基于HTTP的应用（1、 HTTP代理 2、多线程下载 3、 HTTPS传输协议原理 4、开发web程序时常用的Request Methods 5、用户与服务器的交互）                    
+       ——————————————参考自：http://ioswiki.sinaapp.com/index.php?edition-view-45-5#3
 
 
 同步get访问方式：

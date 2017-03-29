@@ -5,7 +5,7 @@ date: 2012-11-11 20:08
 categories: []
 tags: iOS
 ---
-#前提条件：需要引入AVFoundation.frame-work、MediaPlayer.framework、CoreAudio.framework（录制音频时会用到）
+# 前提条件：需要引入AVFoundation.frame-work、MediaPlayer.framework、CoreAudio.framework（录制音频时会用到）
 
 AV 框架(Audio 和Video框架)里的 AVAudioPlayer类播放iOS支持的所有音频格式。AVAudioPlayer 实例的delegate属性允许我们通过事件获得通知,例如当音频播放被打断或者播放音频文件出错时。
 新建一个类，类中包含一个播放器的属性。而且该类遵守AVAudioPlayerDelegate协议
