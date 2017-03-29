@@ -16,11 +16,11 @@ $slate:             #3D4260;
 $blue:              #2568A3;
 $catred:            #BF1827;
 
-$primary-color:     $catred;
+$primary-color:     $atom-gray;
 $secondary-color:   #5BA4E5;
 
 $link-color:        $primary-color;
-$hover-color:       darken($atom-gray, 15%);
+$hover-color:       darken($link-color, 15%);
 
 $sans-font:         "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
 $serif-font:        "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
