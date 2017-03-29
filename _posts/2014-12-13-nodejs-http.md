@@ -1,10 +1,13 @@
 ---
 layout: post
-title: node.js学习(HTTP)
+title: 【转载】node.js学习(HTTP)
 date: 2014-12-13 14:18
 categories: []
 tags: nodejs
 ---
+
+转载自[http://nqdeng.github.io/7-days-nodejs](http://nqdeng.github.io/7-days-nodejs)
+
 ### API走马观花
 我们先大致看看NodeJS提供了哪些和网络操作有关的API。这里并不逐一介绍每个API的使用方法，官方文档已经做得很好了。
 #### HTTP
