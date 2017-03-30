@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hybrid App是把双刃剑
+title: 【转载】Hybrid App是把双刃剑
 date: 2014-04-10 15:12
 categories: []
 tags: iOS

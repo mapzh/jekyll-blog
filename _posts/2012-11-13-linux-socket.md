@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Linux中的Socket编程（不限Linux）
+title: 【转载】Linux中的Socket编程（不限Linux）
 date: 2012-11-13 10:33
 categories: []
 tags: Linux
